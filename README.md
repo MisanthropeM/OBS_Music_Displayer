@@ -15,6 +15,10 @@ Create a browser source on OBS and put « http://localhost:3000 » as URL.
 
 Couple this with Tuna that put music info in files and you have an automated music info scroller :
 
-https://github.com/user-attachments/assets/91f3c13a-28b9-4d16-8451-0704cd1b520b
+https://github.com/user-attachments/assets/d2fbebce-0b4f-4f28-848c-f57e50c3c9c0
 
-![image](https://github.com/user-attachments/assets/9f8e5ae5-f2b8-4c7c-976d-3449823fa074)
+Prompt on the cmd window :
+![image](https://github.com/user-attachments/assets/186c3490-7ffc-4a2e-bc04-baf5fcaeeb3b)
+
+You can change the look of the box in : client/style.css
+And the speed of the scolling text in : client/script.js (lines 2, 3 and 4)
