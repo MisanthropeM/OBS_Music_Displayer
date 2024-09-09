@@ -1,0 +1,21 @@
+{
+  "name": "music-display",
+  "version": "1.0.0",
+  "description": "display music name :3",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "test": "node ./server.js"
+  },
+  "keywords": [
+    "AAAAAAAAAAAAAH"
+  ],
+  "author": "misan et zut",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2"
+  },
+  "devDependencies": {
+    "semistandard": "^17.0.0"
+  }
+}

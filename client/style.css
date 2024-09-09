@@ -1,0 +1,64 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    /*margin: 0;*/
+    background-color: #000;
+    top:100px;
+    /* Change offset here: */
+    --offset: .4em;
+}
+
+.container {
+    position: relative;
+    width: 80%;
+    height: 2em;
+    box-sizing: border-box;
+    font-size: 300%;
+    border: .125em solid;
+    border-image: linear-gradient(135deg, magenta, royalblue, turquoise) 1;
+    padding: 0 var(--offset);
+    background-color: #1d1a1a;
+    overflow: hidden;
+    color: #fff;
+    /*display: flex;
+    align-items: center;
+    justify-content: left;*/
+}
+
+.container::before, .container::after {
+
+    position: absolute;
+    content: ' ';
+    top: 0;
+    height: 100%;
+    width: var(--offset);
+    background-color: inherit;
+    left: 0;
+    z-index: 1;
+
+}
+
+.container::after {
+    left: calc(100% - var(--offset))
+}
+
+.text {
+    white-space: nowrap;
+    display: inline-block;
+    font-size: 60%;
+    position:relative;
+    top:-10%;
+    font-family: 'Fixedsys Excelsior 3.01';
+
+    /* smooth scrolling: */
+    /*transition: transform .35s linear;*/
+}
+
+@font-face {
+    font-family: 'Fixedsys Excelsior 3.01';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Fixedsys Excelsior 3.01'), url('FSEX300.woff') format('woff');
+}
