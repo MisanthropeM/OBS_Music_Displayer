@@ -18,7 +18,9 @@ Couple this with Tuna that put music info in files and you have an automated mus
 https://github.com/user-attachments/assets/d2fbebce-0b4f-4f28-848c-f57e50c3c9c0
 
 Prompt on the cmd window :
+
 ![image](https://github.com/user-attachments/assets/186c3490-7ffc-4a2e-bc04-baf5fcaeeb3b)
 
 You can change the look of the box in : client/style.css
+
 And the speed of the scolling text in : client/script.js (lines 2, 3 and 4)
