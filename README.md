@@ -1,4 +1,4 @@
-# OBS_Music_Displayer
+# OBS_Music_Info_Scroller
 Display music informations on auto-scrolling text if it is longer than the width of the box.
 This project does not play music, it only reads informations on txt files !
 
@@ -13,7 +13,7 @@ Create a browser source on OBS and put « http://localhost:3000 » as URL.
 
 ![image](https://github.com/user-attachments/assets/34e7ccd1-f369-4f4f-8530-9f018afec8ce)
 
-Couple this with Tuna that put music info in files and you have an automated music info scroller :
+Couple this with Tuna which puts music info in files and you have an automated music info scroller :
 
 https://github.com/user-attachments/assets/d2fbebce-0b4f-4f28-848c-f57e50c3c9c0
 
